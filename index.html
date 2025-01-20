@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Taofique Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo" href="#main">
+        <img src="assets/logo.png" />
+        <a href="#main" target="_blank">Taofique Islam </a>
+      </div>
+      <ul>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+
+      <button id="contactButton">Contact Me</button>
+
+      <button id="menuButton" onclick="openMenu()">
+        <i class="bx bx-menu"></i>
+      </button>
+    </nav>
+
+    <div class="main" id="main">
+      <div class="left">
+        <h5>Hey, I am Taofique islam</h5>
+        <h3>A <span>Front-End</span> developer and lifelong learner</h3>
+        <p>
+          Passionate front-end developer dedicated to crafting clean,
+          user-friendly interfaces with modern design. Always eager to learn and
+          turn ideas into responsive web experiences.
+        </p>
+
+        <button id="touchButton">Get In Touch</button>
+      </div>
+      <div class="right">
+        <img src="assets/header-img.png" />
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <h5>My Skills</h5>
+      <h3>My Expertise</h3>
+      <div class="skill-items">
+        <div class="item">
+          <div class="icon"><i class="bx bx-code-alt"></i></div>
+          <h4>Front-End Design</h4>
+          <p>
+            Experienced in front-end development, creating responsive,
+            user-friendly, and visually appealing web interfaces.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="icon"><i class="bx bxl-javascript"></i></div>
+          <h4>Java Script</h4>
+          <p>
+            Skilled in JavaScript, building dynamic, interactive, and efficient
+            web applications with modern frameworks.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="icon"><i class="bx bxl-html5"></i></div>
+          <h4>HTML and Web Design</h4>
+          <p>
+            Proficient in HTML, crafting structured, accessible, and responsive
+            web layouts.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="icon"><i class="bx bx-cool"></i></div>
+          <h4>Fast Learner</h4>
+          <p>
+            Fast learner with a passion for quickly adapting to new technologies
+            and continuously enhancing skills.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <div class="left">
+        <img src="assets/about-img.png" />
+      </div>
+      <div class="right">
+        <h5>About</h5>
+        <h3>About Me</h3>
+        <p>
+          A Recent graduate and enthusiastic front-end developer, eager to learn
+          and adapt to the ever-evolving tech industry. Passionate about
+          creating user-friendly, responsive web experiences while staying
+          updated with the latest trends and technologies.
+        </p>
+        <p>
+          With a background in Computer Science and a Master’s in Business, I am
+          eager to leverage my technical and managerial skills to contribute
+          effectively to the company's success. Passionate about front-end
+          development, I strive to create user-friendly solutions while adapting
+          to industry trends.
+        </p>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+      <div class="header">
+        <div class="info">
+          <h5>Recent Projects</h5>
+          <h3>My Portfolio</h3>
+        </div>
+      </div>
+
+      <div class="portfo-items">
+        <div class="item">
+          <img src="assets/sc-1.jpg" />
+          <div class="info">
+            <h4>Budget Calculator</h4>
+            <p>
+              A simple budget calculator web application built using HTML, CSS,
+              JavaScript. Simple CRUD operations are added to the web
+              application.
+            </p>
+            <a href="https://budget-calculator-gray.vercel.app/"
+              >View in Vercel <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/sc-2.jpg" />
+          <div class="info">
+            <h4>Pixel Art Generator</h4>
+            <p>
+              A simple pixel art generating web application using HTML, CSS and
+              JavaScript. Drawing and Erasing functionality is included in the
+              project.
+            </p>
+            <a href="https://pixel-art-q5d6.vercel.app/"
+              >View in Vercel <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/sc-3.jpg" />
+          <div class="info">
+            <h4>Bike Repair Website</h4>
+            <p>
+              Simple single page bike repair website. This is a passion project,
+              still working on this.
+            </p>
+            <a href="https://vercel.com/taofique-islams-projects/bike-repair "
+              >View in Vercel<i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback" id="feedback">
+      <h5>Clients Reviews</h5>
+      <h3>Customers Feedback</h3>
+      <div class="customers">
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            Outstanding front-end development work! Delivered a sleek,
+            responsive, and user-friendly interface on time.Great attention to
+            detail and design. The UI/UX exceeded our expectations!
+          </p>
+          <div class="user">
+            <img src="assets/us-1.jpg" />
+            <div class="info">
+              <h5>Dianne Russell</h5>
+              <p>Starbucks</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            Professional, efficient, and highly skilled. Transformed our ideas
+            into a functional and beautiful web app.Impressed with the
+            creativity and responsiveness. A pleasure to work with!
+          </p>
+          <div class="user">
+            <img src="assets/us-2.jpg" />
+            <div class="info">
+              <h5>Kristian Watson</h5>
+              <p>Louis Vuitton</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            Exceptional work! The web app is fast, modern, and easy to
+            navigate.Delivered a pixel-perfect design with great performance
+            optimization. Highly recommend!
+          </p>
+          <div class="user">
+            <img src="assets/us-3.jpg" />
+            <div class="info">
+              <h5>Kathryn Murphy</h5>
+              <p>McDonald's</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="top">
+        <div class="logo">
+          <img src="assets/logo.png" href="#main" />
+          <a href="#main">Taofique Islam</a>
+        </div>
+        <ul>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#main">Blog</a></li>
+          <li><a href="#main">Contact</a></li>
+          <li><a href="https://github.com/Taofique ">Github</a></li>
+          <li><a href="https://github.com/Taofique ">Projects</a></li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.facebook.com/shornob.chowdhury.7/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/gol_d_shornob/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Taofique "
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/taofique/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="bottom">
+        <p>Made By Taofique Islam</p>
+        <div class="links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies Setting</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
