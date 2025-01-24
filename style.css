@@ -621,3 +621,84 @@ footer .bottom .links a {
     width: 100%;
   }
 }
+
+/* Practice Project Section Styling  */
+
+.practice-project {
+  background-color: #f4f4f4;
+  padding: 110px 85px;
+  text-align: center;
+}
+
+.practice-project .header {
+  margin-bottom: 60px;
+}
+
+.practice-project h5 {
+  font-size: 20px;
+  color: #5e3bee;
+}
+
+.practice-project h3 {
+  font-size: 40px;
+  color: #1c1e53;
+}
+
+.practice-project .project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.practice-project .project-item img {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
+}
+
+.practice-project .project-item .info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.practice-project .project-item .info h4 {
+  font-size: 24px;
+  color: #1c1e53;
+  margin-bottom: 10px;
+}
+
+.practice-project .project-item .info p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.practice-project .project-item .info a {
+  display: inline-block;
+  color: #fff;
+  background-color: #5e3bee;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.practice-project .project-item .info a:hover {
+  background-color: #3a269c;
+}
+
+@media (max-width: 992px) {
+  .practice-project .project-item {
+    flex-direction: column;
+  }
+
+  .practice-project .project-item img {
+    width: 100%;
+  }
+
+  .practice-project .project-item .info {
+    text-align: center;
+  }
+}
