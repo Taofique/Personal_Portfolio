@@ -153,6 +153,14 @@ nav button#menuButton {
   box-shadow: 0 2px #291a70;
 }
 
+/* Button alignment using button-group class  */
+
+.main .left .button-group {
+  display: flex;
+  gap: 20px; 
+}
+
+
 .main .right img {
   width: 500px;
 }
